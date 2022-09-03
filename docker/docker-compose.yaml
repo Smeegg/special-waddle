@@ -2,21 +2,21 @@ version: "3.9"
 
 services:
   serviceA:
-    image: dockerhub/serviceA:0.0.0-rc.1
+    image: dockerhub/serviceA:0.0.0-rc.2
     deploy:
      replicas: 1
 
   serviceB:
-    image: dockerhub/serviceB:0.0.0-rc.3
+    image: dockerhub/serviceB:0.0.0-rc.5
     deploy:
      replicas: 1
 
   serviceC:
-    image: dockerhub/serviceC:0.0.0-rc.2
+    image: dockerhub/serviceC:0.0.0-rc.3
     deploy:
      replicas: 1
 
   serviceD:
-    image: dockerhub/serviceD:0.0.0-rc.1
+    image: dockerhub/serviceD:0.0.0-rc.4
     deploy:
      replicas: 1

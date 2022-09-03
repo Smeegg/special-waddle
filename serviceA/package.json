@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
-    "@glib/endpoint-serviceA": "^1.2.5",
+    "@glib/endpoint-serviceA": "^1.3.0",
     "@glib/utils": "3.2.7"
   }
 }
